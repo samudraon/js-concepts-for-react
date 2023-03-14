@@ -23,7 +23,8 @@ const values = Object.values(student);
 // for
 const numbers = [334, 31, 61, 94];
 numbers.forEach(num => console.log(num));
-numbers.map(num => num * 2);
+const result=numbers.map(num => num * 2);
+console.log(numbers);
 
 // for of- on array like object
 // loop on an object using for in
